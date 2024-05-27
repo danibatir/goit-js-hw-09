@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+input[type='text'] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+button[data-start],
+.timer div.value {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button[data-start]:hover,
+.timer div.value:hover {
+  background-color: #0056b3;
+}
+
+.timer {
+  display: Flex;
+}
+
+.field {
+  padding-right: 10px;
+}
+
+.value {
+  font-size: 18px;
+}
